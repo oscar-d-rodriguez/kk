@@ -10,10 +10,10 @@
 angular.module('kikisApp')
   .controller('StoreCtrl', function () {
     
-    this.storeTitle = 'Pasele pariente!';
+    this.storeTitle = 'KIKIS TIENDA';
 
     this.products = [
-    	{
+    	  {
           'product': {
               'name': 'Nombre del Producto 1',
               'family': 'Vettel'
@@ -39,7 +39,7 @@ angular.module('kikisApp')
         },
                 {
           'product': {
-              'name': 'Nombre del Producto 2',
+              'name': 'Nombre del Producto 3',
               'family': 'Alonso'
           },
           'price': '242',
@@ -51,7 +51,7 @@ angular.module('kikisApp')
         },
         {
           'product': {
-              'name': 'Nombre del Producto 2',
+              'name': 'Nombre del Producto 4',
               'family': 'Alonso'
           },
           'price': '242',
@@ -63,7 +63,7 @@ angular.module('kikisApp')
         },
         {
           'product': {
-              'name': 'Nombre del Producto 2',
+              'name': 'Nombre del Producto 5',
               'family': 'Alonso'
           },
           'price': '242',
@@ -75,7 +75,7 @@ angular.module('kikisApp')
         },
         {
           'product': {
-              'name': 'Nombre del Producto 2',
+              'name': 'Nombre del Producto 6',
               'family': 'Alonso'
           },
           'price': '242',
@@ -83,6 +83,54 @@ angular.module('kikisApp')
           	'small' : 'http://thumbs.dreamstime.com/t/sweet-working-women-22954933.jpg',
           	'medium' : '',
           	'large' : ''
+          }
+        },
+        {
+          'product': {
+              'name': 'Nombre del Producto 1',
+              'family': 'Vettel'
+          },
+          'price': '397',
+          'images': {
+            'small' : 'http://thumbs.dreamstime.com/t/sweet-working-women-22954933.jpg',
+            'medium' : '',
+            'large' : ''
+          }
+        },
+        {
+          'product': {
+              'name': 'Nombre del Producto 1',
+              'family': 'Vettel'
+          },
+          'price': '397',
+          'images': {
+            'small' : 'http://thumbs.dreamstime.com/t/sweet-working-women-22954933.jpg',
+            'medium' : '',
+            'large' : ''
+          }
+        },
+        {
+          'product': {
+              'name': 'Nombre del Producto 1',
+              'family': 'Vettel'
+          },
+          'price': '397',
+          'images': {
+            'small' : 'http://thumbs.dreamstime.com/t/sweet-working-women-22954933.jpg',
+            'medium' : '',
+            'large' : ''
+          }
+        },
+        {
+          'product': {
+              'name': 'Nombre del Producto 1',
+              'family': 'Vettel'
+          },
+          'price': '397',
+          'images': {
+            'small' : 'http://thumbs.dreamstime.com/t/sweet-working-women-22954933.jpg',
+            'medium' : '',
+            'large' : ''
           }
         }
     ];

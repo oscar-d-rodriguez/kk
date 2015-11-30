@@ -1,18 +1,19 @@
 
-<h1 ng-bind="store.storeTitle"></h1>
+<span ng-bind="store.storeTitle"></span>
+
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-md-8 col-lg-6">
     <a href="#/product-detail"> 
-      <img src="http://placehold.it/535x180">
+      <img ng-src="http://thumbs.dreamstime.com/t/sweet-working-women-22954933.jpg" class="banner" />
     </a>
   </div>
   <div ng-repeat="item in store.products">
-    <div class="col-sm-3">
+    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
       <div class="item">
-        <img ng-src="http://thumbs.dreamstime.com/t/sweet-working-women-22954933.jpg" alt="{{item.product.name}}"><br>
+        <img ng-src="http://thumbs.dreamstime.com/t/sweet-working-women-22954933.jpg" alt="{{item.product.name}}">
         <p>{{item.product.name}}</p>
         <p>${{item.price}}</p>
       </div>
     </div>
   </div>
- </div> 
+</div> 
