@@ -1,0 +1,18 @@
+
+<h1 ng-bind="store.storeTitle"></h1>
+<div class="row">
+  <div class="col-sm-6">
+    <a href="#/product-detail"> 
+      <img src="http://placehold.it/535x180">
+    </a>
+  </div>
+  <div ng-repeat="item in store.products">
+    <div class="col-sm-3">
+      <div class="item">
+        <img ng-src="http://thumbs.dreamstime.com/t/sweet-working-women-22954933.jpg" alt="{{item.product.name}}"><br>
+        <p>{{item.product.name}}</p>
+        <p>${{item.price}}</p>
+      </div>
+    </div>
+  </div>
+ </div> 
