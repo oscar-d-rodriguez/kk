@@ -10,8 +10,10 @@
  */
 angular
   .module('kikisApp', [
+    'ui.bootstrap',
     'ngAnimate',
-    'ngRoute'
+    'ngRoute',
+    'kikisApp.directives.header'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -29,3 +31,6 @@ angular
         redirectTo: '/'
       });
   });
+
+
+  
