@@ -1,25 +1,22 @@
 'use strict';
 
 /**
- * @ngdoc function
+ * @ngdoc Controller
  * @name kikisApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the kikisApp
+ * @description Controller of the kikisApp
  */
 angular.module('kikisApp')
   .controller('mainCtrlr', function ($scope, $uibModal) {
-
-
     /**
-	 * @ngdoc: function to open login modal
-	 * @description: Instanciate the login logic in new controller	 
-	 */
-    $scope.open = function () {
+	   * @ngdoc: function to open login modal
+	   * @description: Instanciate the login logic in new controller	 
+	   */
+    $scope.openLoginModal = function () {
   		var loginModalController = $uibModal.open({
         	templateUrl: 'scripts/login/views/login-view.html',
-        	 controller: 'loginController'
+        	controller: 'loginController',
+          windowTopClass:'loginModal'
     	});
+      console.log(loginModalController);
     };
-
   });

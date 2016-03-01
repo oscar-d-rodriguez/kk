@@ -1,0 +1,15 @@
+/* line 1, ../../sass/screens/home.scss */
+.container .jumbotron {
+  padding: 10px;
+}
+
+/* line 4, ../../sass/screens/home.scss */
+.container img {
+  width: 100%;
+}
+
+/* line 7, ../../sass/screens/home.scss */
+.container .banner {
+  margin-bottom: 20px;
+  max-height: 200px;
+}

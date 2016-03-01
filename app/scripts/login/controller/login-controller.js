@@ -9,6 +9,7 @@
 angular.module('kikisApp')
   .controller('loginController', function ($scope, $uibModalInstance) {
     
+    /* Function to close the modal */
   	$scope.close = function () {
 		$uibModalInstance.close();
 	};

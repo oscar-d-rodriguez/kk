@@ -1,0 +1,16 @@
+
+/*************************************************************************
+	
+	INPUTS
+
+***************************************************************************/
+input.form-control, input{
+	height:40px;
+	border:solid 1px $black;
+	border-radius:0px;
+	box-shadow:none;
+}
+
+body input[type=checkbox]{
+	height:initial;
+}

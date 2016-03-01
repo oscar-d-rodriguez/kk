@@ -1,0 +1,19 @@
+/* line 3, ../../sass/partials/buttons.scss */
+.btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0px;
+  padding: 10px 40px;
+  display: block;
+}
+/* line 9, ../../sass/partials/buttons.scss */
+.btn:hover {
+  color: #fff;
+}
+
+/* line 13, ../../sass/partials/buttons.scss */
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  background-color: #aaa;
+}

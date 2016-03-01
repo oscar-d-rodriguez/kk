@@ -1,0 +1,108 @@
+/*************************************************************************
+	
+	INPUTS
+
+***************************************************************************/
+/* line 7, ../../sass/partials/forms.scss */
+input.form-control, input {
+  height: 40px;
+  border: solid 1px #000;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+/* line 14, ../../sass/partials/forms.scss */
+body input[type=checkbox] {
+  height: initial;
+}
+
+/* line 3, ../../sass/partials/buttons.scss */
+.btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0px;
+  padding: 10px 40px;
+  display: block;
+}
+/* line 9, ../../sass/partials/buttons.scss */
+.btn:hover {
+  color: #fff;
+}
+
+/* line 13, ../../sass/partials/buttons.scss */
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  background-color: #aaa;
+}
+
+/* Login Styles
+ * Imported partials: Colors 
+ * Kikis app v1.1
+ */
+/* line 10, ../../sass/modules/login.scss */
+.loginModal .modal-dialog {
+  width: 750px;
+  height: 380px;
+  background-color: #fff;
+}
+/* line 15, ../../sass/modules/login.scss */
+.loginModal .modal-content {
+  background: none;
+  box-shadow: none;
+  border: none;
+  padding: 25px 22px;
+}
+/* line 21, ../../sass/modules/login.scss */
+.loginModal .modal-content #login .forgot-password {
+  font-size: 12px;
+  margin: 0px;
+  letter-spacing: 0px;
+  text-transform: inherit;
+  float: right;
+}
+/* line 29, ../../sass/modules/login.scss */
+.loginModal .modal-content #login li a {
+  text-transform: uppercase;
+  font-size: 19px;
+  letter-spacing: 3px;
+  color: #ccc;
+  display: inline-block;
+  border: none;
+  padding: 0;
+  margin-right: 15px;
+  margin-left: 12px;
+}
+/* line 39, ../../sass/modules/login.scss */
+.loginModal .modal-content #login li a:hover {
+  cursor: pointer;
+  background: none;
+  color: #000;
+}
+/* line 46, ../../sass/modules/login.scss */
+.loginModal .modal-content #login ul {
+  border: none;
+}
+/* line 50, ../../sass/modules/login.scss */
+.loginModal .modal-content #login li.active a {
+  color: #000;
+  border: none;
+}
+/* line 55, ../../sass/modules/login.scss */
+.loginModal .modal-content #login .login-tab {
+  margin-right: 25px;
+}
+/* line 58, ../../sass/modules/login.scss */
+.loginModal .modal-content #login .close-login {
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 12px;
+}
+/* line 67, ../../sass/modules/login.scss */
+.loginModal .modal-content #login form {
+  margin-top: 20px;
+}

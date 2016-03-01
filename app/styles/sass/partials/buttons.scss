@@ -1,0 +1,17 @@
+@import "colors.scss";
+
+.btn{
+	background-color:$black;
+	color:$whithe;
+	border-radius: 0px;
+	padding: 10px 40px;
+	display: block;
+	&:hover{
+		color: $whithe;
+	}
+}
+.btn.disabled, 
+.btn[disabled], 
+fieldset[disabled] .btn{
+	background-color:#aaa;
+}

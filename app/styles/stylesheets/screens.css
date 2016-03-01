@@ -1,0 +1,19 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 1, ../sass/screens/home.scss */
+.container .jumbotron {
+  padding: 10px;
+}
+
+/* line 4, ../sass/screens/home.scss */
+.container img {
+  width: 100%;
+}
+
+/* line 7, ../sass/screens/home.scss */
+.container .banner {
+  margin-bottom: 20px;
+  max-height: 200px;
+}
