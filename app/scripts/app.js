@@ -13,7 +13,8 @@ angular
     'ui.bootstrap',
     'ngAnimate',
     'ngRoute',
-    'kikisApp.directives.header'
+    'kikisApp.directives.header',
+    'kikisApp.directives.login'
   ])
   .config(function ($routeProvider) {
     $routeProvider

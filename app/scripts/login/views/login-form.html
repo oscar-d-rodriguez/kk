@@ -1,0 +1,20 @@
+<form name="loginForm"> 
+	<div class="form-group"> 
+		<label for="username">Usuario</label> 
+		<input type="text" name="username" ng-model="username" required="required" class="form-control"/>
+	</div> 
+	<div class="form-group"> 
+		<label for="password">Password</label> 
+		<input type="password" name="password" ng-model="password" required="required" class="form-control"/> 
+	</div> 
+	<div class="form-group">
+		<input type="checkbox"></input>Recordarme
+		<button type="submit" ng-disabled="!loginForm.$valid" ng-class="btn-default" ng-click="login()" class="btn login pull-right">		Entrar
+		</button>
+		 <div class="clearfix"></div>
+	</div>
+	<div class="form-group">
+		<a href="#" class="forgot-password">Olvidaste tu contraseña?</a>
+	</div>
+	<span ng-show="loginError && !loginForm.$valid" class="label label-danger"> <b>Error With Login</b> Please try again. </span>
+</form>

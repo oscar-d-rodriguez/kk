@@ -13,7 +13,7 @@ angular.module('kikisApp')
 	   */
     $scope.openLoginModal = function () {
   		var loginModalController = $uibModal.open({
-        	templateUrl: 'scripts/login/views/login-view.html',
+        	templateUrl: 'scripts/login/views/login-modal.html',
         	controller: 'loginController',
           windowTopClass:'loginModal'
     	});
