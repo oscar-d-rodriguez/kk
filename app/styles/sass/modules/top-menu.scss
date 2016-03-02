@@ -1,0 +1,17 @@
+/*
+	Top Menu
+*/
+.top-navigation{
+	float: right;
+	width: auto;
+	list-style-type: none;
+	padding: 0;
+	margin-right: -15px;
+	li{	
+		float: left;
+		a{
+			display: inline-block;
+			margin: 15px 0 0 15px;
+		}
+	}
+}

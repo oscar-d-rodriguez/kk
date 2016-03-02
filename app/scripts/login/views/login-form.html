@@ -1,4 +1,5 @@
 <form name="loginForm"> 
+	<span ng-show="loginError && !loginForm.$valid" class="label label-danger">Los datos son incorrectos</span>
 	<div class="form-group"> 
 		<label for="username">Usuario</label> 
 		<input type="text" name="username" ng-model="username" required="required" class="form-control"/>
@@ -16,5 +17,4 @@
 	<div class="form-group">
 		<a href="#" class="forgot-password">Olvidaste tu contraseña?</a>
 	</div>
-	<span ng-show="loginError && !loginForm.$valid" class="label label-danger"> <b>Error With Login</b> Please try again. </span>
 </form>

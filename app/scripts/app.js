@@ -14,7 +14,8 @@ angular
     'ngAnimate',
     'ngRoute',
     'kikisApp.directives.header',
-    'kikisApp.directives.login'
+    'kikisApp.directives.login',
+    'firebase'
   ])
   .config(function ($routeProvider) {
     $routeProvider
